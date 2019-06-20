@@ -1,0 +1,26 @@
+[Unit]
+Description=Bouygues's distributed currency daemon
+After=network.target
+
+[Service]
+User=byg
+Group=byg
+
+Type=forking
+PIDFile=/var/lib/bygd/bygd.pid
+
+ExecStart=/usr/bin/bygd -daemon -pid=/var/lib/bygd/bygd.pid \
+          -conf=/etc/byg/byg.conf -datadir=/var/lib/bygd
+
+ExecStop=-/usr/bin/byg-cli -conf=/etc/byg/byg.conf \
+         -datadir=/var/lib/bygd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

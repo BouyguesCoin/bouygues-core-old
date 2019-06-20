@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/byg_bg.qm</file>
+        <file alias="ca">locale/byg_ca.qm</file>
+        <file alias="cs">locale/byg_cs.qm</file>
+        <file alias="da">locale/byg_da.qm</file>
+        <file alias="de">locale/byg_de.qm</file>
+        <file alias="en">locale/byg_en.qm</file>
+        <file alias="en_US">locale/byg_en_US.qm</file>
+        <file alias="es">locale/byg_es.qm</file>
+        <file alias="fi">locale/byg_fi.qm</file>
+        <file alias="fr_FR">locale/byg_fr_FR.qm</file>
+        <file alias="it">locale/byg_it.qm</file>
+        <file alias="ja">locale/byg_ja.qm</file>
+        <file alias="ko_KR">locale/byg_ko_KR.qm</file>
+        <file alias="nl">locale/byg_nl.qm</file>
+        <file alias="pl">locale/byg_pl.qm</file>
+        <file alias="pt">locale/byg_pt.qm</file>
+        <file alias="pt_BR">locale/byg_pt_BR.qm</file>
+        <file alias="ro_RO">locale/byg_ro_RO.qm</file>
+        <file alias="ru">locale/byg_ru.qm</file>
+        <file alias="sk">locale/byg_sk.qm</file>
+        <file alias="sv">locale/byg_sv.qm</file>
+        <file alias="uk">locale/byg_uk.qm</file>
+        <file alias="zh_CN">locale/byg_zh_CN.qm</file>
+        <file alias="zh_TW">locale/byg_zh_TW.qm</file>
+    </qresource>
+</RCC>

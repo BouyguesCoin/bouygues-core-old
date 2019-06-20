@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bouygues
+Comment=Bouygues P2P Cryptocurrency
+Comment[fr]=Bouygues, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bouygues, eşten eşe kriptografik sanal para birimi
+Exec=byg-qt %u
+Terminal=false
+Type=Application
+Icon=byg128
+MimeType=x-scheme-handler/byg;
+Categories=Office;Finance;
