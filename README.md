@@ -40,8 +40,8 @@ More information at [bouygues-coin.com](http://bouygues-coin.com)
 <tr>
 <th scope="row">1-</th>
 <th scope="row">1 BYG</th>
-<td>0.20 BYG (20%)</td>
-<td>0.80 BYG (80%)</td> 
+<td>0.10 BYG (10%)</td>
+<td>0.90 BYG (90%)</td> 
 </tr>
 </tr>
 </tbody>
